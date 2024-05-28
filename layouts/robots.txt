@@ -6,4 +6,4 @@ Disallow: {{.RelPermalink}}
 {{ end }}
 {{ end }}
 
-Sitemap: https://executebig.org/sitemap.xml
+Sitemap: https://jksntn.my.id/sitemap.xml

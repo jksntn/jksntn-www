@@ -1,6 +1,8 @@
-baseURL = "https://executebig.org/"
+baseURL = "https://jksntn.my.id/"
 languageCode = "en-us"
-title = "Execute Big"
+title = "jksntn"
+
+ignoreErrors = ["error-remote-getjson"]
 
 disableHugoGeneratorInject = true
 disableKinds = ["categories"]
@@ -29,14 +31,14 @@ home = ["HTML","RSS"]
     alt = "Execute Big Pig"
 
   [params.homepage_meta_tags]
-    meta_description = "A minimal & transparent student-run organization founded to enable all students to experience and explore computer science education."
-    meta_og_title = "Execute Big"
+    meta_description = "Website personal dari seorang bapak-bapak fulltimer yang tinggal di Bekasi."
+    meta_og_title = "jksntn"
     meta_og_type = "website"
-    meta_og_url = "https://executebig.org"
-    meta_og_description = "A minimal & transparent student-run organization founded to enable all students to experience and explore computer science education."
+    meta_og_url = "https://jksntn.my.id"
+    meta_og_description = "Website personal dari seorang bapak-bapak fulltimer yang tinggal di Bekasi."
     meta_twitter_card = "summary_large_image"
-    meta_twitter_site = "@executebig"
-    meta_twitter_creator = "@executebig"
+    meta_twitter_site = "@jksntn"
+    meta_twitter_creator = "@jksntn"
 
 [menu]
   # Main Menu
@@ -111,3 +113,9 @@ home = ["HTML","RSS"]
 [sitemap]
   filename = "sitemap.xml"
   priority = 0.5
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

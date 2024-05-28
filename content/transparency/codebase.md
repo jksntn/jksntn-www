@@ -13,5 +13,3 @@ If you need assistance redeploying our projects, please feel free to [reach out]
 {{< button text="GitHub @executebig »" url="https://github.com/executebig/" external="true" >}}
 
 ---
-
-{{< git-meta >}}
