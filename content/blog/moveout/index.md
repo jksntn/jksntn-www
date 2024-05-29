@@ -5,7 +5,7 @@ author: Mingjie Jiang
 featured: false
 draft: false
 weight: 100
-"journals/tags": [resources, updates]
+"blog/tags": [resources, updates]
 ---
 
 Execute Big was founded over a year ago under a fiscal sponsor, and one year later, we decided to become an independent nonprofit organization for legal and marketing independence. We’ve come a long way, and while we are not currently able to do much under the pandemic, we believe that there are still tons of potential for us to grow.

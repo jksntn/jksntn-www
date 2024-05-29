@@ -6,7 +6,7 @@
         <div class="col-6 col-md-3">
           <ul>
             <li class="footer-title">
-              {{ .Site.Title }}
+              Navigation
             </li>
             {{ range .Site.Menus.about }}
             <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
@@ -46,17 +46,20 @@
             {{end}}
           </ul>
         </div>
-        <div class="col-6 col-md-3" style="text-align: center;">
-          <a href="https://flappypig.mingjie.repl.co/" target="_blank" rel="noopener">
-            <img src="/images/brand/icon.svg" class="footer-steak" alt="Execute Big Pig Mascot">
-          </a>
-          <a class="rv0" href="https://blog.replit.com/ventures" target="_blank" rel="noopener">
-            <img src="/images/sponsors/rv0.png" />
-          </a>
+        <div class="col-6 col-md-3">
+          <ul>
+            <li class="footer-title">
+              Lets Talk
+            </li>
+            <li>
+              <a href="https://twitter.com/jksntn">Twitter</a>
+            </li>
+            <li>
+              <a href="https://threads.net/jksntn">Threads</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <p class="footer-copyright mb-0 mt-1">&copy; 2022 Execute Big, a 501(c)(3) non-profit (EIN 85-2160468)</p>
-      <p class="footer-copyright mb-0 mt-0">1531 Rockville Pike #1007, Rockville, MD 20852, United States.</p>
     </div>
   </div>
 </div>

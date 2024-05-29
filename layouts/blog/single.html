@@ -1,7 +1,7 @@
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
-<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} Journals" />
-<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Journals" />
+<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} BLog" />
+<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Blog" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=100px" />
 <meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
@@ -9,7 +9,7 @@
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
 {{ end }}
-{{ define "body_classes" }}page-journals-single{{ end }}
+{{ define "body_classes" }}page-blog-single{{ end }}
 {{ define "main" }}
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
@@ -28,7 +28,7 @@
       <div>
         <div class="aside tags">
           <h2>Tags</h2>
-          {{ $taxo := "journals/tags" }}
+          {{ $taxo := "blog/tags" }}
           {{ range .Param $taxo }}
           {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
           <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>

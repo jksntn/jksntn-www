@@ -23,8 +23,8 @@ $ pnpm dev
 Hugo utilizes archetypes to create structured content from templates. 
 
 ```bash
-# To create a new journal entry
-$ hugo new --kind journal journals/your-post-name
+# To create a new blog entry
+$ hugo new --kind blog blog/your-post-name
 ```
 
 ## Acknowledgements

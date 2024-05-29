@@ -90,8 +90,8 @@ $sub-footer-text-color: $white;
 @import 'pages/team/team-single';
 @import 'pages/team/team-list';
 @import 'pages/programs/page-programs-single';
-@import 'pages/journals/page-journals';
-@import 'pages/journals/page-journals-single';
+@import 'pages/blog/page-blog';
+@import 'pages/blog/page-blog-single';
 @import 'pages/fellowship/speaker';
 
 body {
@@ -107,7 +107,7 @@ body {
 //Custom
 #TableOfContents ul {
   padding: 0 0 0 20px;
-  line-height: 27px;
+  line-height: 30px;
 }
 
 html {

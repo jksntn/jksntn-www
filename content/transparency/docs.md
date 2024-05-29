@@ -9,8 +9,8 @@ All of our legal and administrative documents have been made public for inspecti
 ## Impact Reports
 
 * [Annual Impact Report, 2020](https://go.executebig.org/2020-annual) _(Includes 2020 Financials)_
-* [Impact Report, Q2 2020-Q3 2020](https://executebig.org/journals/2020-review/)
-* [Impact Report, Q4 2019-Q1 2020](https://executebig.org/journals/q1-2020-impact/)
+* [Impact Report, Q2 2020-Q3 2020](https://executebig.org/blog/2020-review/)
+* [Impact Report, Q4 2019-Q1 2020](https://executebig.org/blog/q1-2020-impact/)
 
 ## Registration
 

@@ -39,7 +39,7 @@
     },
     {
       "source": "/blog/(.*)",
-      "destination": "/journals/$1",
+      "destination": "/blog/$1",
       "permanent": false
     }
   ]

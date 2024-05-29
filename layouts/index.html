@@ -25,25 +25,13 @@
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row">
       <div class="col-12">
-        <h1 style="font-size: 2.5rem;" class="mb-4">Our Programs</h1>
+        <h1 style="font-size: 2.5rem;" class="mb-4">Tulisan Terbaru</h1>
       </div>
     </div>
     <div class="row justify-content-start">
-      <div class="col-12 mb-5">
-        <a href="https://techroulette.xyz/?utm_source=EB_programs" style="text-decoration: none;">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                Tech Roulette
-              </h2>
-              <p style="margin: 0">Take a leap into fields of technology through a variety of random intro projects while earning rewards and prizes — all within your free time over summer! Returning Summer 2022.</p>
-            </div>
-          </div>        
-        </a>
-      </div>
       {{ range first 4 (sort $programs ".Params.weight") }}
       {{ if not .Params.private }}
-      <div class="col-12 col-md-6 mb-3">
+      <div class="col-12 col-md-4 mb-3">
         {{ .Render "summary" }}
       </div>
       {{ else }}
@@ -65,19 +53,6 @@
   </div>
 </div>
 {{end}}
-<!-- <div class="strip strip-grey journal">
-  <div class="container pt-6 pb-6">
-    {{ range first 1 (where (where .Site.RegularPages "Type" "journals") ".Params.featured" "=" true) }}
-    <p class="metadata">Published {{dateFormat "Jan 2, 2006" .Params.date}} by {{ .Params.author }}</p>
-    <div class="row justify-content-start">
-      <div class="col-12">
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Description | default .Content | plainify | htmlUnescape | truncate 240 "…" }}</p>
-      </div>
-    </div>
-    {{ end }}
-  </div>
-</div> -->
 {{ end }}
 {{ define "footer_js" }}
 {{ end }}

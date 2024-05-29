@@ -49,8 +49,8 @@ home = ["HTML","RSS"]
       weight = 1
 
   [[menu.main]]
-      name = "Journals"
-      url = "/journals/"
+      name = "Blog"
+      url = "/blog/"
       weight = 3
 
   [[menu.main]]
@@ -98,8 +98,8 @@ home = ["HTML","RSS"]
       weight = 2
       
   [[menu.resources]]
-      name = "Journals"
-      url = "/journals/"
+      name = "Blog "
+      url = "/blog/"
       weight = 4
       
   [[menu.resources]]
@@ -108,7 +108,7 @@ home = ["HTML","RSS"]
       weight = 5
 
 [taxonomies]
-  journals_tags = "journals/tags"
+  blog_tags = "blog/tags"
 
 [sitemap]
   filename = "sitemap.xml"

@@ -34,9 +34,9 @@ Partnering with private institutions to host innovative, purpose-driven CS educa
 
 ## Impact Report
 
-We publish periodic impact reports to update our donors and supporters. You can read them in the "Impact Report" journal tag.
+We publish periodic impact reports to update our donors and supporters. You can read them in the "Impact Report" blog tag.
 
-{{< button text="Impact Reports »" url="/journals/tags/impact-report/" >}}
+{{< button text="Impact Reports »" url="/blog/tags/impact-report/" >}}
 
 ## Logo & Brand
 
