@@ -1,6 +1,6 @@
-<img src="static/images/logo.svg" height="50px">
+# Welcome to JKSNTN Website!
 
-**Website for [Execute Big](https://executebig.org), built with [Hugo](https://gohugo.io/).**
+Berikut ini dokumentasi dari website ini.
 
 ---
 
@@ -32,3 +32,68 @@ $ hugo new --kind blog blog/your-post-name
 Powered by <a href="https://vercel.com/?utm_source=executebig&utm_campaign=oss" target="_blank"><img src="static/images/sponsors/vercel-dark.svg" height="14px" /></a>
 
 This website is built based on [Hugo Serif Theme](https://themes.gohugo.io/hugo-serif-theme/) by [@jugglerx](https://github.com/jugglerx/).
+
+## Short Code
+
+### Blog Meta
+
+```
+---
+title: "Judul Postingan"
+date: 2017-08-27
+featured_image: images/01.jpg
+featured: false
+draft: false
+"blog/tags": [ tag1, tag2, tag3 ]
+---
+```
+
+### Youtube
+
+Example of use:
+
+```
+{{< youtube 4GJC6QHXb1s >}} 
+```
+
+### Caraousel
+
+Image gallery, use group of image on specific directory.
+
+Example:
+
+```
+{{< carousel dir="/images/events" duration="2500" height="400px" >}}
+```
+
+### Announcement
+
+Example Warning Annoucement:
+
+```
+{{< announcement content="<p class='title'>TITLE</p>DESC <a href=\"/contact\">LINK</a>." class="danger" >}}
+```
+
+Example normal announcement
+
+```
+{{< announcement content="DESC.">}}
+```
+
+### Button
+
+Example of use:
+
+```
+{{< button text="Request Consultation" url="https://forms.gle/mgncUxpV21w59jNk7" external="true" >}}
+```
+
+### FAQ Accordion
+
+Example of use: 
+
+```
+{{< expand "TITLE" >}}
+DESC
+{{< /expand >}}
+```

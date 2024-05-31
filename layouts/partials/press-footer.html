@@ -1,6 +1,6 @@
 {{ if gt ((findRE `(?i)<h\d` .Content) | len) 1 }}
-  <div class="aside">
-    <h2>On This Page</h2>
+  <div class="program-sidenav">
+    <h2>Table of Content</h2>
     {{ .TableOfContents }}
   </div>
 {{ else }}

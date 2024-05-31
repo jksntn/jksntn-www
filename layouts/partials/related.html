@@ -1,0 +1,11 @@
+{{ $related := (where (.Site.RegularPages.Related .) "Type" "blog") | first 3 }}
+{{ with $related }}
+<div id="TableOfContents" class="program-sidenav">
+    <h2>Related Posts</h2>
+    <ul>
+        {{ range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

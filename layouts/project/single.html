@@ -1,0 +1,53 @@
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
+<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} BLog" />
+<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Blog" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
+<meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
+<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
+<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
+<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
+{{ end }}
+{{ define "body_classes" }}page-project-single{{ end }}
+{{ define "main" }}
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <h1 class="title">
+    {{.Title}}
+  </h1>
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <div class="content">{{.Content}}</div>
+      </div>
+    </div>
+      <div class="col-12 col-md-4">
+        <div>
+          <div class="program-sidenav">
+            <h2>Project Detail</h2>
+            <h3>Category:</h3>
+            <p>{{ .Params.desckategori }}</p>
+            <h3>Client:</h3>
+            <p>{{ .Params.descclient }}</p>
+            <h3>Year:</h3>
+            <p>{{ .Params.desctahun }}</p>
+            <h3>Website:</h3>
+            <p><a href="{{ .Params.descurl }}">{{ .Params.descurl }}</a></p>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer_js" }}
+{{ $library := resources.Get "js/libs/library.js" }}
+{{ $services := resources.Get "js/pages/services.js" }}
+{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+{{ else }}
+<script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+{{ end }}
+{{ end }}

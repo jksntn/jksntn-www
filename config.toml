@@ -35,6 +35,7 @@ home = ["HTML","RSS"]
     meta_og_title = "jksntn"
     meta_og_type = "website"
     meta_og_url = "https://jksntn.my.id"
+    meta_og_image = "images/personal/featured.png"
     meta_og_description = "Website personal dari seorang bapak-bapak fulltimer yang tinggal di Bekasi."
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@jksntn"
@@ -44,9 +45,14 @@ home = ["HTML","RSS"]
   # Main Menu
 
   [[menu.main]]
-      name = "Team"
-      url = "/team/"
+      name = "Beranda"
+      url = "/"
       weight = 1
+
+  [[menu.main]]
+      name = "Tentang"
+      url = "/tentang/"
+      weight = 2
 
   [[menu.main]]
       name = "Blog"
@@ -54,58 +60,83 @@ home = ["HTML","RSS"]
       weight = 3
 
   [[menu.main]]
-      name = "Subscribe"
-      url = "/subscribe"
-      weight = 7
+      name = "Project"
+      url = "/Project/"
+      weight = 4      
+
 
   # Footer Menu
       
   [[menu.about]]
-      name = "Team"
-      url = "/team/"
+      name = "Tentang"
+      url = "/tentang/"
       weight = 1
   
   [[menu.about]]
-      name = "Contact"
-      url = "/contact/"
+      name = "Blog"
+      url = "/blog/"
       weight = 2
 
   [[menu.about]]
-      name = "Donate"
-      url = "/donate/"
+      name = "Project"
+      url = "/project/"
       weight = 3
 
-  [[menu.about]]
-    name = "Conduct"
-    url = "/conduct/"
-      weight = 4
+# Product Menu
+  
+  [[menu.product]]
+    name = "Web Development"
+    url = "#"
+    weight = 1
+      
+  [[menu.product]]
+    name = "Graphic Design"
+    url = "#"
+    weight = 2
 
-  [[menu.about]]
-    name = "Privacy"
-    url = "/privacy/"
-      weight = 5
+  [[menu.product]]
+    name = "Digital Marketing"
+    url = "#"
+    weight = 3    
 
   # Resources Menu
   
   [[menu.resources]]
-    name = "Brand"
-    url = "/brand/"
+    name = "Freebies"
+    url = "#"
       weight = 1
 
   [[menu.resources]]
-      name = "Transparency"
-      url = "/transparency/"
+      name = "Books"
+      url = "#"
       weight = 2
       
   [[menu.resources]]
-      name = "Blog "
-      url = "/blog/"
+      name = "Street Photography"
+      url = "#"
       weight = 4
       
   [[menu.resources]]
-    name = "Press"
-    url = "/press/"
+    name = "Marketing"
+    url = "#"
       weight = 5
+
+  # Menu Hubungi Saya
+  
+  [[menu.hubungisaya]]
+    name = "Twitter"
+    url = "https://twitter.com/jksntn/"
+      weight = 1
+
+  [[menu.hubungisaya]]
+      name = "Threads"
+      url = "https://threads.net/jksntn/"
+      weight = 2
+      
+  [[menu.hubungisaya]]
+      name = "Facebook"
+      url = "https://facebook.com/jksntn/"
+      weight = 4
 
 [taxonomies]
   blog_tags = "blog/tags"
@@ -119,3 +150,22 @@ home = ["HTML","RSS"]
     endLevel = 3
     ordered = false
     startLevel = 2
+
+# Related
+
+[related]
+  threshold = 0 
+  includeNewer = true
+  toLower = false
+
+  [[related.indices]]
+      name = "tags"
+      weight = 1
+
+  [[related.indices]]
+    name = "categories"
+    weight = 2    
+
+  [[related.indices]]
+      name = "date"
+      weight = 3

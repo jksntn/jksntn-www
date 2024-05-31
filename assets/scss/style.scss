@@ -16,8 +16,8 @@ $link-hover-color: lighten($primary, 5%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Inter', Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Inter', Helvetica, Arial, sans-serif, -apple-system;
+$font-family-base: 'Inter', Arial, sans-serif, -apple-system;
+$font-family-heading: 'Inter', Arial, sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: $steel;
@@ -104,14 +104,48 @@ body {
   }
 }
 
-//Custom
+// Table of Content
 #TableOfContents ul {
   padding: 0 0 0 20px;
   line-height: 30px;
 }
 
+// HTML SMOOTH
+
 html {
   scroll-behavior: smooth;
+}
+
+// Tag
+
+span.tag.badge.badge-pill.badge-primary {
+  padding: 0.5em 0.8em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 0.5rem;
+  background-color: #2f2f41;
+}
+
+// Image
+
+input[type=checkbox] {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  /* .post-content is a class which will be present only on single pages 
+      and not lists and section pages in Hugo */
+  .image input[type="checkbox"]:checked ~ label > img {
+      transform: scale(1.6);
+      cursor: zoom-out;
+      position: relative;
+      z-index: 999;
+  }
+
+  .image img.zoomCheck {
+      transition: transform 0.15s ease;
+      z-index: 999;
+      cursor: zoom-in;
+  }
 }
 
 // Display breakpoints for DEV

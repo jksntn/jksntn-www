@@ -3,11 +3,12 @@
 <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} BLog" />
 <meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Blog" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:image" content="https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=100px" />
+<meta property="og:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
 <meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
 <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
 {{ end }}
 {{ define "body_classes" }}page-blog-single{{ end }}
 {{ define "main" }}
@@ -16,7 +17,7 @@
     <div class="col-12 col-md-8">
       <div class="post-header">
         <h1 class="title">{{.Title}}</h1>
-        <p class="meta">Posted {{ dateFormat "Jan 2, 2006" .Params.date }} by {{ .Params.author }}{{if .Params.editor }}, edited by {{ .Params.editor }}{{end}}</p>
+        <p class="meta">Posted {{ dateFormat "Jan 2, 2006" .Params.date }}</p>
       </div>
     </div>
   </div>
@@ -25,19 +26,16 @@
       <div class="content">{{.Content}}</div>
     </div>
     <div class="col-12 col-md-4">
-      <div>
-        <div class="aside tags">
-          <h2>Tags</h2>
-          {{ $taxo := "blog/tags" }}
-          {{ range .Param $taxo }}
-          {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
-          <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-      <div class="mt-4">
         {{ partial "press-footer" . }}
+        {{ partial "related" . }}
+      <div class="program-sidenav">
+        <h2>Tags</h2>
+        {{ $taxo := "blog/tags" }}
+        {{ range .Param $taxo }}
+        {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
+        <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{ .Title }}</span></a>
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>

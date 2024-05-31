@@ -6,7 +6,7 @@
         <div class="col-6 col-md-3">
           <ul>
             <li class="footer-title">
-              Navigation
+              Get Started
             </li>
             {{ range .Site.Menus.about }}
             <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
@@ -20,13 +20,12 @@
         <div class="col-6 col-md-3">
           <ul>
             <li class="footer-title">
-              Programs
+              Product
             </li>
-            {{ $programs := where (where .Site.Pages "Type" "programs") ".Params.layout" "single" }}
-            {{ range (sort $programs ".Params.weight") }}
-            <li class="menu-item-{{ .Title | lower }}{{ if eq $currentPage.RelPermalink .RelPermalink }} active{{ end }}">
-              <a href="{{.RelPermalink}}">
-                {{ .Title }}
+            {{ range .Site.Menus.product }}
+            <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
+              <a href="{{.URL}}">
+                {{ .Name }}
               </a>
             </li>
             {{end}}
@@ -49,17 +48,19 @@
         <div class="col-6 col-md-3">
           <ul>
             <li class="footer-title">
-              Lets Talk
+              Hubungi Saya
             </li>
-            <li>
-              <a href="https://twitter.com/jksntn">Twitter</a>
+            {{ range .Site.Menus.hubungisaya }}
+            <li class="menu-item-{{ .Name | lower }}{{ if eq $currentPage.RelPermalink .URL }} active{{ end }}">
+              <a href="{{.URL}}">
+                {{ .Name }}
+              </a>
             </li>
-            <li>
-              <a href="https://threads.net/jksntn">Threads</a>
-            </li>
+            {{end}}
           </ul>
         </div>
       </div>
+      <p class="footer-copyright mb-0 mt-1">&copy; 2024 jksntn.my.id</p>
     </div>
   </div>
 </div>

@@ -1,15 +1,16 @@
-{{ define "title" }}{{ .Site.Title }}: Exciting CS exploration programs{{ end}}
+{{ define "title" }}{{ .Site.Title }}: Bapak-Bapak Fulltimer{{ end}}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
 <meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
 <meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
 <meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
-<meta property="og:image" content="{{if not .IsHome}}https://og.executebig.org/{{ safeURL (plainify .Title) }}?theme=light&fontSize=120px{{else}}https://og.executebig.org/{{ safeURL (plainify .Site.Title) }}?theme=dark&fontSize=200px{{ end }}" />
+<meta property="og:image" content="{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image}}" />
 <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
 <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
 <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
 <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<meta name="twitter:image" content="{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image}}" />
 {{ end }}
 {{ define "main" }}
 <div class="intro">
@@ -19,8 +20,7 @@
     </div>
   </div>
 </div>
-{{ $programs := where (where .Site.Pages "Type" "programs") ".Params.layout" "single" }}
-{{if gt (len $programs) 0}}
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row">
@@ -28,31 +28,44 @@
         <h1 style="font-size: 2.5rem;" class="mb-4">Tulisan Terbaru</h1>
       </div>
     </div>
+
     <div class="row justify-content-start">
-      {{ range first 4 (sort $programs ".Params.weight") }}
+      {{ range first 6 ( where .Site.RegularPages "Type" "blog" ) }}
       {{ if not .Params.private }}
       <div class="col-12 col-md-4 mb-3">
         {{ .Render "summary" }}
       </div>
-      {{ else }}
-      {{ if .Params.pilot }}
-      <div class="col-12 col-md-6 mb-3">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title piloting">
-              Coming Soon <span class="badge badge-warning" style="font-size: .9rem; vertical-align: middle;">Invite-Only Pilot</span>
-            </h2>
-            <p>We're hard at work planning something new. Interested in getting a preview and sharing some thoughts? <a href="/contact">Contact us</a>, and we'd love to chat with you!</p>
-          </div>
-        </div>
+      {{ end }}
+      {{ end }}
+      <div class="col-12">
+        <h3 class="mb-4"><a class="button cta" href="/blog/">Cek tulisan saya lainnya di sini →</a></h1>
+      </div>
+    </div>
+  </div>  
+
+  <div class="container pt-6 pb-6 pb-md-10">  
+    <div class="row">
+      <div class="col-12">
+        <h1 style="font-size: 2.5rem;" class="mb-4">Project terbaru</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-start">
+      {{ range first 6 ( where .Site.RegularPages "Type" "project" ) }}
+      {{ if not .Params.private }}
+      <div class="col-12 col-md-4 mb-3">
+        {{ .Render "summary" }}
       </div>
       {{ end }}
       {{ end }}
-      {{ end }}
+      <div class="col-12">
+        <h3 class="mb-4"><a class="button cta" href="/project/">Cek project saya lainnya di sini →</a></h1>
+      </div>
     </div>
+  </div> 
+    
   </div>
 </div>
 {{end}}
-{{ end }}
 {{ define "footer_js" }}
 {{ end }}
