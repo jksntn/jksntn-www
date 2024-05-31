@@ -212,6 +212,7 @@ $RECYCLE.BIN/
 
 .netlify
 .vercel
+.idx
 
 # Temporarily ignore launch page
 _takeover.md

@@ -13,12 +13,12 @@
   <meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}" />
   <meta property="og:type" content="{{ .Title }} – {{ .Site.Title }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
+  <meta property="og:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
   <meta property="og:description" content="{{ .Params.description | default .Site.Params.homepage_meta_tags.meta_og_description }}" />
   <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
   <meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
   <meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
-  <meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Permalink }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
+  <meta name="twitter:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
   {{ end }}
   <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

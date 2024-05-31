@@ -5,9 +5,9 @@ weight: 2
 featured_image: images/1.jpg
 featured: true
 desckategori: "Photography"
-descclient: "-"
+descclient: 
 desctahun: "2017"
-descurl: "-"
+descurl: 
 ---
 
 Project ini adalah salah satu project fotografi yang saya kerjakan pada tahun 2017, tepatnya saat campaign 24 Hour Project. Sayangnya saat itu saya ga ngikutin motret selama 24 jam, cuman setengah hari karena anak baru setahun lahir.

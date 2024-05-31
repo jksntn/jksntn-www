@@ -6,5 +6,5 @@
             src="{{ .Destination | safeURL }}" alt="{{ .Text }}" 
             {{ with.Title}} title="{{ . }}" {{ end }} />
     </label>
-    <p class="image-caption">{{ .Text  | markdownify}}</p>
+    <p class="image-caption">{{ .Text }}</p>
 </div>
