@@ -29,8 +29,6 @@ $ hugo new --kind blog blog/your-post-name
 
 ## Acknowledgements
 
-Powered by <a href="https://vercel.com/?utm_source=executebig&utm_campaign=oss" target="_blank"><img src="static/images/sponsors/vercel-dark.svg" height="14px" /></a>
-
 This website is built based on [Hugo Serif Theme](https://themes.gohugo.io/hugo-serif-theme/) by [@jugglerx](https://github.com/jugglerx/).
 
 ## Short Code
