@@ -12,7 +12,7 @@ descurl:
 
 Project ini adalah salah satu project fotografi yang saya kerjakan pada tahun 2017, tepatnya saat campaign 24 Hour Project. Sayangnya saat itu saya ga ngikutin motret selama 24 jam, cuman setengah hari karena anak baru setahun lahir.
 
-{{< carousel dir="/images/project/24-hour-project-2017" duration="2500" height="400px" >}}
+{{< carousel dir="/images/project/24-hour-project-2017" duration="2500" >}}
 
 ## Tentang 24 Hour Project
 

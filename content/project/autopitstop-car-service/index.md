@@ -18,7 +18,7 @@ Websitenya sendiri saya develop menggunakan wordpress dan plugin elementor sebag
 
 Karena pembuatan website ini based on template yang sudah ada, jadi saya membuatnya tidak perlu lama. Total pengerjaan mulai dari pembelian domain, setup hosting, dan web develnya sekitar dua mingguan.
 
-{{< carousel dir="/images/project/autopitstop-slide" duration="2500" height="400px" >}}
+{{< carousel dir="/images/project/autopitstop-slide" duration="2500" >}}
 
 ## Creative Content
 

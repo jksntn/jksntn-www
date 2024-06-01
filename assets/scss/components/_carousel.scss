@@ -1,8 +1,17 @@
 .carousel {
   padding-bottom: 25px;
-
+  
+  @media screen and (max-width: 992px) {
+    .flickity-viewport {
+      height: 200px !important;
+    }
+    .carousel-cell {
+      width: 70%;
+      height: 200px;
+    }  
+  }  
   .carousel-cell {
-    width: 66%;
+    width: 70%;
     height: 400px;
     margin-right: 10px;
     background-color: $hint;
