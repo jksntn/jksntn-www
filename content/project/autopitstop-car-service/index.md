@@ -7,7 +7,7 @@ featured: true
 desckategori: "Web Development, Creative Content, Video Production"
 descclient: "Bengkel Autopitstop Car Service Puri Kembangan"
 desctahun: "2022-2023"
-descurl: "https://autopitstop.co.id"
+descurl: "https://link.autopitstop.co.id"
 ---
 
 Project Autopitstop adalah project creative yang saya kerjakan untuk sebuah bengkel mobil di Jakarta Barat. Saya mengerjakan mulai dari pembuatan website, pembuatan video konten, dan optimasi digital, seperti SEO, Google Business, dan Media Sosial Autopitstop.
@@ -20,6 +20,9 @@ Karena pembuatan website ini based on template yang sudah ada, jadi saya membuat
 
 {{< carousel dir="/images/project/autopitstop-slide" duration="2500" >}}
 
+[Cek Websitenya →](https://autopitstop.co.id/)   
+[Google Business Autopitstop](https://maps.app.goo.gl/2oqHmvbPttpeGqCw6)
+
 ## Creative Content
 
 Selain website, saya juga mendevelop content video dan gambar untuk kebutuhan di media sosial dan Google Business.
@@ -28,4 +31,4 @@ Selain website, saya juga mendevelop content video dan gambar untuk kebutuhan di
 
 Konten videonya saya menggunakan konsep video vertikal yang menunjukkan kegiatan sehari-hari di bengkel, selain itu juga menampilkan beberapa showreel keadaan di bengkel.
 
-[Cek videonya](https://www.tiktok.com/@autopitstop.id/) 
+[Cek videonya →](https://www.tiktok.com/@autopitstop.id/) 

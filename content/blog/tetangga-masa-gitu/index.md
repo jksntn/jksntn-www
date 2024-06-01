@@ -4,7 +4,7 @@ date : 2023-03-13
 featured_image: 
 featured: false
 draft: false
-"blog/tags": [ self]
+"blog/tags": [ pengalaman pribadi]
 ---
 
 Ini sebenernya cerita cukup lama, mungkin sekitar tahun 2017.

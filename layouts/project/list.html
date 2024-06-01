@@ -13,10 +13,10 @@
   <div class="row">
     {{ range .Pages.ByWeight }}
     {{ if not .Params.private }}
-    <div class="col-12 col-md-6 mb-3">{{ .Render "summary" }}</div>
+    <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
     {{ else }}
     {{ if .Params.pilot }}
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-4 mb-3">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title piloting">

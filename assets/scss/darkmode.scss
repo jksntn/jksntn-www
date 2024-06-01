@@ -1,0 +1,66 @@
+// Darkmode
+
+$dark1: #2e2e2e;
+$dark2: #272727;
+$dark-button: #ffcf90;
+$dark-font: #fff;
+$dark-notif: #319699;
+$dark-warn: #db5555;
+$dark-tag: #ffb759;
+
+body, .strip {
+    background-color: $dark1 !important;
+    color: $dark-font !important;
+}
+
+.header, .footer, .program-sidenav {
+    background-color: $dark2 !important;
+}
+
+.brand-title.header-title, {
+    color: $dark-font !important;
+}
+
+.main-menu > ul > li > a {
+    color: $dark-font !important;
+}
+
+.intro h1, .intro h2, p, .title, .content h2, .content li, .content {
+    color: $dark-font !important; 
+}
+
+a {
+    color: darken($dark-button, 10%) !important; 
+}
+
+a:hover {
+    color: $dark-button !important; 
+}
+
+.button {
+    background-color: darken($dark-button, 10%)!important;
+    color: $dark1 !important; 
+}
+
+.button:hover {
+    background-color: $dark-button !important;
+    color: $dark1 !important;  
+}
+
+span.tag.badge.badge-pill.badge-primary {
+    background-color: darken($dark-button, 10%)!important;
+    color: $dark1 !important;  
+}
+
+span.tag.badge.badge-pill.badge-primary:hover {
+    background-color: $dark-button !important;
+    color: $dark1 !important;  
+}
+
+.announcement.danger {
+    background-color: $dark-warn !important;
+}
+
+.announcement {
+    background-color: $dark-notif !important;
+}

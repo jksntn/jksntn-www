@@ -4,7 +4,7 @@ date : 2015-01-21
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ self ]
+"blog/tags": [ pengalaman pribadi ]
 ---
 
 Pada suatu malam saya mendapatkan broadcast messenger yang berisikan promo sarapan gratis di Mc Donald, yaitu free Mc Muffin sebelum jam 10 pagi. Saya jadi teringat pada kejadian konyol ketika kuliah dulu. Saat itu saya juga mendapatkan promo yang sama, free Mc Muffin juga.

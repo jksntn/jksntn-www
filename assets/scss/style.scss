@@ -30,6 +30,10 @@ $sub-footer-text-color: $white;
 
 @import 'libraries/fonts';
 
+// Dark Mode
+
+@import 'darkmode';
+
 // Bootstrap
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
