@@ -148,6 +148,26 @@ input[type=checkbox] {
   }
 }
 
+// Caraousel
+
+@media screen and (max-width: 529px) {
+  .flickity-viewport {
+    height: 200px !important;
+  }
+  .carousel-cell {
+    height: 200px !important;
+  } 
+}
+
+@media screen and (max-width: 992px) {
+  .flickity-viewport {
+    height: 250px !important;
+  }
+  .carousel-cell {
+    height: 250px !important;
+  } 
+} 
+
 // Display breakpoints for DEV
 {{ if .Site.IsServer }}
 body:after {
