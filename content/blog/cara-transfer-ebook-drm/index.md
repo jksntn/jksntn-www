@@ -15,21 +15,15 @@ Mengapa harus dipindahin sih? Karena saya mungkin tidak membeli eBook hanya di s
 
 Cara download ebook kamu dari Store seperti Kobo dan Google Play Books sangatlah mudah. Kamu tinggal masuk ke dalam Library kamu di web, dan kemudian download bukunya. Tapi engga bisa langsung dibaca begitu saja, karena harus didownload dulu menggunakan [Adobe Digital Editions](https://www.adobe.com/solutions/ebook/digital-editions/download.html). (Tenang saja, adobe digital editions ini gratis kok).
 
-![](/assets/img/drm-ke-ebook-001.jpg)
-
-Download file .acsm di Kobo
+![Download file .acsm di Kobo](images/drm-ke-ebook-001.jpg)
 
 Buka Kobo, pilih my books. Pada halaman ini, Pilih Download ebook yang mau didownload. Nanti bakal ada file .acsm, filenya kecil sekitar 2kb. File tersebut hanya link saja. Nanti bukunya akan didownload menggunakan Adobe Digital Editions.
 
-![](/assets/img/drm-ke-ebook-002.jpg)
-
-Download file .acsm di Google Play
+![Download file .acsm di Google Play](images/drm-ke-ebook-002.jpg)
 
 Untuk di Google Play Books juga sama, masuk ke My Books, kemudian pilih Download EPUB. nanti akan kedownload file .acsm nya. Dibuka menggunakan Adobe Digital Editions.
 
-![](/assets/img/drm-ke-ebook-003.jpg)
-
-Adobe Digital Editions ini Gratis lho ya.
+![Adobe Digital Editions ini Gratis lho ya.](images/drm-ke-ebook-003.jpg)
 
 Hal yang terpenting sebelum kamu memasukkan file .acsm tadi ke Adobe Digital Editions adalah, kamu musti AUTHORIZE Adobe Digital Editionsnya menggunakan Adobe ID. Adobe ID ini buatnya gratis kok. Bikinnya tinggal masuk ke adobe.com.
 
@@ -39,17 +33,14 @@ Saya pernah melakukan kesalahan ini ketika pembelian buku di Google Play Books s
 
 Pada tahapan ini, sebenarnya tinggal copas file saja (untuk eBook Reader Android).
 
-![](/assets/img/drm-ke-ebook-004.jpg)
-
-Supaya tau lokasi file .epub nya.
+![Supaya tau lokasi file .epub nya.
+](images/drm-ke-ebook-004.jpg)
 
 Setelah itu tinggal copas saja ke storage Smartphone Android kamu.
 
 Nah, untuk eBook Reader yang saya gunakan adalah [PocketBook Reader](https://play.google.com/store/apps/details?id=com.obreey.reader). Karena bisa buka adobe ID di eBook reader ini.
 
-![](/assets/img/drm-ke-ebook-005.jpg)
-
-Tampilan PocketBook Reader
+![Tampilan PocketBook Reader](images/drm-ke-ebook-005.jpg)
 
 Setelah menginstall PocketBook reader, hal yang harus dilakukan adalah AUTHORIZE Adobe ID kamu. Baru setelah itu scan tempat kamu copas file .epub tadi. Maka ebooknya bisa dibaca di eBook Reader tadi.
 
@@ -57,7 +48,7 @@ Penting untuk diingat, Adobe ID ini harus sama antara yang di eBook reader dan P
 
 ## Troubleshoot
 
-- Kalau Muncul Error [[E_GOOGLE_DEVICE_LIMIT_REACHED]]
+- Kalau Muncul Error [E_GOOGLE_DEVICE_LIMIT_REACHED](/blog/e-google-device-limit-reached)
 
 ## Untuk lebih memahami fungsi Adobe Digital Editions, Baca Ini
 

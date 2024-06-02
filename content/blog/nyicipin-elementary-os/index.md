@@ -9,7 +9,7 @@ draft: false
 
 Buat yang belum tau, [elementaryOS 7](https://en.wikipedia.org/wiki/Elementary_OS) ini Linux/GNU. Elementary OS termasuk turunan dari Ubuntu LTS. Makanya package managernya pake APT, dan Desktop Environtmentnya (DE) masih setia menggunakan [Pantheon](https://en.wikipedia.org/wiki/Elementary_OS#Pantheon_desktop_environment), bukan gnome atau KDE gitu.
 
-Jadi ceritanya saya lagi kangen sama Linux, dan pengen cobain kembali menggunakan Linux setelah sebelumnya pake [hackintosh](https://blog.jksntn.my.id/2021/10/nyicipin-hackintosh-di-thinkpad-x250.html) di Thinkpad X250 saya ini. 
+Jadi ceritanya saya lagi kangen sama Linux, dan pengen cobain kembali menggunakan Linux setelah sebelumnya pake hackintosh di Thinkpad X250 saya ini. 
 
 ![Elementary OS 7](images/1.jpeg)
 

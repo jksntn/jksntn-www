@@ -1,12 +1,11 @@
 // Darkmode
 
-$dark1: #2e2e2e;
-$dark2: #272727;
-$dark-button: #ffcf90;
+$dark1: #3c3836;
+$dark2: #2c2928;
+$dark-button: #f3b841;
 $dark-font: #fff;
-$dark-notif: #319699;
-$dark-warn: #db5555;
-$dark-tag: #ffb759;
+$dark-notif: #458588;
+$dark-warn: #cc241d;
 
 body, .strip {
     background-color: $dark1 !important;
@@ -30,30 +29,30 @@ body, .strip {
 }
 
 a {
-    color: darken($dark-button, 10%) !important; 
-}
-
-a:hover {
     color: $dark-button !important; 
 }
 
+a:hover {
+    color: darken($dark-button, 5%) !important; 
+}
+
 .button {
-    background-color: darken($dark-button, 10%)!important;
+    background-color: $dark-button !important;
     color: $dark1 !important; 
 }
 
 .button:hover {
-    background-color: $dark-button !important;
+    background-color: darken($dark-button, 5%)!important;
     color: $dark1 !important;  
 }
 
 span.tag.badge.badge-pill.badge-primary {
-    background-color: darken($dark-button, 10%)!important;
+    background-color: $dark-button !important;
     color: $dark1 !important;  
 }
 
 span.tag.badge.badge-pill.badge-primary:hover {
-    background-color: $dark-button !important;
+    background-color: darken($dark-button, 5px)!important;
     color: $dark1 !important;  
 }
 
@@ -63,4 +62,8 @@ span.tag.badge.badge-pill.badge-primary:hover {
 
 .announcement {
     background-color: $dark-notif !important;
+}
+
+.hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    background-color: $dark-font !important;
 }

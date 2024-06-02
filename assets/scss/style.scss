@@ -172,6 +172,11 @@ input[type=checkbox] {
   } 
 } 
 
+//
+hr {
+  margin: 20px 0 35px 0 !important;
+}
+
 // Display breakpoints for DEV
 {{ if .Site.IsServer }}
 body:after {
