@@ -1,10 +1,10 @@
 ---
 title : Cara Transfer eBook DRM
 date : 2020-03-20
-featured_image: 
+featured_image: images/drm-ke-ebook-002.jpg
 featured: false
 draft: false
-"blog/tags": [ Photography, 24 Hour Project, Street Photography ]
+"blog/tags": [ ebook, google play books]
 ---
 
 Karena saya termasuk warga negara yang baik, maka saya sangat menghindari namanya pembajakan buku. Namun alasan saya tidak membajak buku tersebut sebenarnya bukan karena rasa kemanusiaan sih, tapi karena engga nemu aja bajakannya 🙈.

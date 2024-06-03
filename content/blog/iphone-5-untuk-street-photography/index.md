@@ -1,7 +1,7 @@
 ---
 title : iPhone 5 untuk Street Photography
 date : 2017-08-01
-featured_image: images/1.jpg
+featured_image: images/iphone5.jpg
 featured: false
 draft: false
 "blog/tags": [ street photography, photography, iphone, review ]
@@ -11,7 +11,7 @@ Sebelumnya saya selalu skeptis terhadap kamera smartphone, bahkan dulu waktu say
 
 Sampai akhirnya saya banyak mengenal fotografer atau mentor fotografi yang menggunakan iPhone-nya untuk memotret sehari-hari dan bahkan untuk memotret *street photography*, seperti [Olly Lang](http://oggsie.com/oggsie) dan [Josh White](https://jtinseoul.wordpress.com/). Sebenarnya ada banyak fotografer yang juga menggunakan smartphone untuk fokus memotret di jalanan, namun kedua orang inilah yang paling menginspirasi saya untuk fokus memotret *street photography* menggunakan smartphone. 
 
-![Fogging](images/1.png)
+![iPhone 5](images/iphone5.jpg)
 
 ## Mengapa iPhone 5?
 
@@ -19,13 +19,15 @@ Kenapa saya menggunakan iPhone 5? Padahal ada smartphone android yang harga seco
 
 Selain itu saya memilih iPhone 5 karena aplikasi iOS, atau aplikasi kamera bawaannya sangat mudah digunakan, tidak ada masalah (lagging atau hal lainnya), dan fiturnya sudah sangat familiar bagi saya (karena saya sudah menggunakan iPhone 3GS dan 4 sebelumnya). Tapi dari semua alasan tersebut, tentu saja nomor satunya karena budget.
 
-![Panas Terik](images/2.png)
+![Fogging](images/1.png)
 
 ## Fitur iPhone 5
 
 Kamera depan iPhone 5 mampu memotret gambar jpeg dengan resolusi 8 megapiksel dan focal length 4.12mm atau setara dengan 33mm (pada sistem 35mm). Pada iPhone 5, pengaturan ISO, shutter speed, kompensasi exposure, white balance dan fokus bisa secara manual namun tidak melalui aplikasi kamera bawaannya. Supaya kamu bisa mengatur secara manual pengaturan yang dijelaskan tadi, perlu aplikasi third party seperti [Manual](http://shootmanual.co/).
 
 Hal menarik dari iPhone 5 ini adalah, kamu bisa menggunakan tombol volume pada hapenya dan pada headset apple yang ada mic plus pengaturan volumenya sebagai tombol shutter, ini bermanfaat apabila kamu ingin memotret dari posisi yang agak sulit, seperti dari bawah pinggang, atau di atas kepala. Kamu juga bisa mengurangi shaking dengan menggunakan tombol volume headset apple sebagai tombol shutter.
+
+![Panas Terik](images/2.png)
 
 Shutter lag pada iPhone 5 kalau saya rasakan sendiri tergolong rendah, namun pada aplikasi third party sebenarnya shutter lag juga terasa tidak terlalu tinggi. Biasanya yang membuat lama adalah ketika membuka aplikasi third party. Berbeda dengan membuka aplikasi kamera bawaannya, ada banyak shortcut supaya kamu bisa dengan cepat membuka aplikasi tersebut.
 

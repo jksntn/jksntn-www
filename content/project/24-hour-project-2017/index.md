@@ -1,7 +1,7 @@
 ---
 title: "24 Hour Project 2017"
 description: "Project street photography 24 Hour Project yang saya kerjakan di tahun 2017."
-weight: 2
+weight: 100
 featured_image: images/1.jpg
 featured: true
 desckategori: "Photography"
