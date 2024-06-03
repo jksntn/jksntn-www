@@ -49,7 +49,7 @@ Apalagi kalau misalnya tempat-tempat tersebut menarik di waktu-waktu tertentu, m
 
 ## Rencanakan Waktu Istirahat
 
-![](images/dilarang.jpgrest.jpg)
+![](images/rest.jpg)
 
 Untuk bisa memotret selama 24 jam, tentu diperlukan stamina supaya tetap fokus memotret. Untuk menyiasati hal tersebut, maka istirahatlah yang cukup, kalau bisa, rencanakan dari awal istarahatmu. 
 
