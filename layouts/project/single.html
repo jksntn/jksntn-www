@@ -1,7 +1,7 @@
 {{ define "meta_tags" }}
 <meta name="description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
-<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }} BLog" />
-<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }} Blog" />
+<meta property="og:title" content="{{ .Title }} – {{ .Site.Title }}" />
+<meta property="og:type" content="{{ .Title }} – {{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ if .Params.featured_image }}{{ .Permalink }}{{ .Params.featured_image }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.homepage_meta_tags.meta_og_image }}{{ end }}" />
 <meta property="og:description" content="{{ .Description | default .Content | plainify | htmlUnescape | truncate 180 "…" }}" />
