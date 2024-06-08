@@ -1,7 +1,7 @@
 ---
 title: 24 Hour Project 2017
 description: Project street photography 24 Hour Project yang saya kerjakan di tahun 2017.
-weight: 100
+weight: 4
 featured_image: images/1.jpg
 featured: false
 desckategori: Photography

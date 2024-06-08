@@ -1,7 +1,7 @@
 ---
 title: Studio Ruang Arsitektur
 description: Project website company profile untuk Studio Ruang Arsitektur di Jakarta
-weight: 2
+weight: 3
 featured_image: images/01.jpg
 featured: false
 desckategori: Web Development

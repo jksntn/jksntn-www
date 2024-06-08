@@ -1,7 +1,7 @@
 ---
 title: Autopitstop Car Service
 description: Project web devel dan bisnis development di bengkel Autopitstop car Service Puri Kembangan Jakarta Barat
-weight: 1
+weight: 2
 featured_image: images/featured.jpg
 featured: false
 desckategori: Web Development, Creative Content, Video Production
