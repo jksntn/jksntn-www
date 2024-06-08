@@ -31,20 +31,22 @@ Selain tampilan, ada beberapa alasan saya untuk menggunakan Obsidian sebagai CMS
 
 ## Setup
 
-Tapi ada beberapa settingan supaya ngeblog di Obsidian makin memudahkan saya, settingannya saya jelaskan di bawah.
+Ada beberapa settingan supaya ngeblog di Obsidian makin memudahkan saya, settingannya saya jelaskan di bawah.
 
-### Setting Vault Hanya di Folder Content 
+### Setting Vault Obsidian
 
 Supaya saya tidak sengaja (karena kobodohan sendiri) mengacaukan file atau struktur folder yang ada di Hugo, jadi folder yang dibuka sebagai Vault di Obsidian hanya folder Content saja. 
 
-Abaikan folder setting Obsidian `.obsidian` dengan menambahkan beberapa baris di file `.gitignore`.
+Folder content ini biasanya cuman ada tulisan blog, halaman about, dan halaman-halaman berisi konten yang akan muncul di webstei.
+
+Supaya settingan obsidian engga muncul di instalan Hugo, cukup abaikan folder setting Obsidian `.obsidian` dengan menambahkan beberapa baris di file `.gitignore`.
 
 ```
 .obsidian
 content/.obsidian
 ```
 
-Karena settingan Obsidian ini engga bakal diupload ke Github, jadi saya musti setup ulang setiap pindah PC atau Laptop. 
+Tapi nantinya saya musti setup ulang Obsidiannya setiap pindah PC atau Laptop. 
 ### Setting Default Penyimpanan Gambar.
 
 Fleksibilitas Obsidian yang bisa memindahkan (copas) tulisan html bahkan gambar ke dalam notesnya bisa kita setup supaya gambarnya masuk ke dalam folder gambar (saya menggunakan folder images), supaya mempercepat proses ngeblog tanpa harus copas manual di folder/explorer. 
@@ -60,8 +62,10 @@ Atur beberapa settingan ini di pengaturan Obsidian di section Files and Links:
 
 ---
 
-Saya juga tetap menggunakan/membuka visual studio code untuk mengecek perubahan yang saya buka tidak merusak file atau folder yang lain. 
+Karena GUI VS Code memudahkan saya untuk mengecek code apa saja yang beruba, Saya masih menggunakan/membuka VS Code.
 
-Fitur source control memudahkan saya mengembalikan/ discard perubahan yang salah. 
+Fitur source control di dalam VS Code memudahkan saya mengembalikan/ discard perubahan yang salah. 
 
-Saya juga menjalankan Hugo di local menggunakan terminal VS Code untuk mengecek tampilan di websitenya, apakah sudah sesuai apa belum.
+![Fitur Source Control VS Code](images/Pasted%20image%2020240608170430.png)
+
+Saya juga menjalankan Hugo di local menggunakan terminal VS Code untuk mengecek tampilan di websitenya secara local, apakah sudah sesuai apa belum.
