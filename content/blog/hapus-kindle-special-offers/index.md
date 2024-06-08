@@ -35,7 +35,7 @@ Kemudian pilih Something else dan pilih 'I need more help'. Setelah itu akan ada
 
 ![Tombol untuk chat langsung dengan CS Amazon](images/2.png)
 
-Awalnya akan ada pilihan beberapa sebelum bisa chat langsung, pilih aja (kalo ga ada), ketik special offers atau remove special offers. Akan ada beberapa pilihan sebelum akhirnya kita bisa ngobrol langsung sama CS. 
+Awalnya akan ada beberapa pilihan sebelum bisa chat langsung, pilih aja (kalo ga ada), ketik special offers atau remove special offers. 
 
 Setelah nanti bisa ngobrol sama CSnya, tulis aja alasan kita mau ngehapus special offers itu karena Kindlenya mau dipake buat anak-anak dan takut kepencet iklan special offersnya.
 
