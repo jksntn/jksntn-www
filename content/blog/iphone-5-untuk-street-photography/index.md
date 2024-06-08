@@ -1,12 +1,15 @@
 ---
-title : iPhone 5 untuk Street Photography
-date : 2017-08-01
+title: iPhone 5 untuk Street Photography
+date: 2017-08-01
 featured_image: images/iphone5.jpg
 featured: false
 draft: false
-"blog/tags": [ street photography, photography, iphone, review ]
+blog/tags:
+  - street photography
+  - photography
+  - iphone
+  - review
 ---
-
 Sebelumnya saya selalu skeptis terhadap kamera smartphone, bahkan dulu waktu saya punya iPhone 4, saya tidak terlalu menganggap serius fitur kameranya. Saya hanya menggunakan kamera iPhone 4 dulu untuk memotret dokumen, hal-hal yang perlu diingat, pokoknya waktu itu saya tidak serius menggunakan kamera iPhone 4 untuk memotret sebagai pengganti DSRL, bahkan untuk memotret *street photography*.
 
 Sampai akhirnya saya banyak mengenal fotografer atau mentor fotografi yang menggunakan iPhone-nya untuk memotret sehari-hari dan bahkan untuk memotret *street photography*, seperti [Olly Lang](http://oggsie.com/oggsie) dan [Josh White](https://jtinseoul.wordpress.com/). Sebenarnya ada banyak fotografer yang juga menggunakan smartphone untuk fokus memotret di jalanan, namun kedua orang inilah yang paling menginspirasi saya untuk fokus memotret *street photography* menggunakan smartphone. 

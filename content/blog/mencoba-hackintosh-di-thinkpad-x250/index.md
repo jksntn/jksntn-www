@@ -1,12 +1,14 @@
 ---
-title: "Mencoba Hackintosh di Thinkpad X250"
+title: Mencoba Hackintosh di Thinkpad X250
 date: 2021-10-09
 featured_image: images/hackintosh.jpg
 featured: false
 draft: false
-"blog/tags": [ hackintosh, macos, thinkpad x250 ]
+blog/tags:
+  - hackintosh
+  - macos
+  - thinkpad x250
 ---
-
 Setelah cukup lama menimbang-nimbang untuk menginstall Hackintosh di Thinkpad X250 saya, dan juga cukup banyak orang yang sudah [mencobanya](https://github.com/exxncss/x250-hackintosh) (thanks mas bro exxncss), sayapun memberanikan diri mencoba OS ini.
 
 Tidak tanggung-tanggung, saya langsung menginstall Big Sur (macOS 11). 

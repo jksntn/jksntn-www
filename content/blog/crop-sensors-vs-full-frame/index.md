@@ -1,12 +1,14 @@
 ---
-title : Crop Sensors vs Full Frame
-date : 2016-01-01
+title: Crop Sensors vs Full Frame
+date: 2016-01-01
 featured_image: images/01.png
 featured: false
 draft: false
-"blog/tags": [ Photography, 24 Hour Project, Street Photography ]
+blog/tags:
+  - Photography
+  - 24 Hour Project
+  - Street Photography
 ---
-
 Video Zack Arias ini tersebut membahas perdebatan antara crop sensor dan sensor full-frame pada kamera. Nampaknya dari zaman Firaun sampai era sekarang perdebatan crop sensors vs full frame tidak ada hentinya. 
 
 {{< youtube PHYidejT3KY >}} &nbsp;

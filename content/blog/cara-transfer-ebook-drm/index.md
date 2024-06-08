@@ -6,7 +6,6 @@ featured: false
 draft: false
 "blog/tags": [ ebook, google play books]
 ---
-
 Karena saya termasuk warga negara yang baik, maka saya sangat menghindari namanya pembajakan buku. Namun alasan saya tidak membajak buku tersebut sebenarnya bukan karena rasa kemanusiaan sih, tapi karena engga nemu aja bajakannya 🙈.
 
 Nah, di tulisan saya kali ini, saya mau menceritakan bagaimana saya memindahkan buku-buku DRM habis beli di [Google Play Books](https://play.google.com/store/books) atau Store Online lain seperti [Kobo.com](https://kobo.com/), ke eBook reader seperti aplikasi di Android, Kobo eReader, Kindle eReader, dll.

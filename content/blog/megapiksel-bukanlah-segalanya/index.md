@@ -1,12 +1,12 @@
 ---
-title : Megapiksel Bukanlah Segalanya
-date : 2016-10-21
+title: Megapiksel Bukanlah Segalanya
+date: 2016-10-21
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ photography ]
+blog/tags:
+  - photography
 ---
-
 Pada suatu hari saya mendengarkan percakapan teman kantor saya. Kok hasil foto hapenya engga bagus ya? Padahal kameranya 13mp lho. Apakah kamu juga pernah mendengarkan hal seperti itu? Atau bahkan kamu termasuk orang yang mempertanyakan kualitas kamera hape 13 megapikselmu?
 
 Salah satu acuan ketika memilih hape canggih (*smartphone*), tentunya adalah kita melihat kemampuan kameranya. Apakah kamera belakangnya bisa mengambil gambar yang bagus untuk foto pemandangan, orang, atau binatang. Kemudian apakah kamera depannya juga bisa menghasilkan gambar yang bagus untuk foto selfie atau grupie. Biasanya setelah itu baru kita memilih kemampuan hardware-nya. Kalau saya perhatikan, sebenarnya kita mengincar *smartphone* yang bisa memotret dan kualitasnya mendekati kamera poket digital. Apakah memang benar seperti itu?

@@ -1,12 +1,14 @@
 ---
-title : Review Canon S95 untuk Street Photography
-date : 2017-02-10
+title: Review Canon S95 untuk Street Photography
+date: 2017-02-10
 featured_image: images/canons95.jpg
 featured: false
 draft: false
-"blog/tags": [ photography, street photography, review ]
+blog/tags:
+  - photography
+  - street photography
+  - review
 ---
-
 Mengapa saya mereview kamera ini? Tentu saja karena saya sedang menggunakan kamera ini untuk memotret *street photography*. Setelah saya puas menggunakan *smartphone* iPhone 5 selama tahun 2016 untuk memotret *street photography*.
 
 Perlu diketahui bahwa saya bukanlah penggemar Canon, saya lebih familiar dengan menu-menu yang ada pada kamera Nikon (DSLR) dibandingkan Canon. Bagi saya kamera hanyalah tools, tidak ada alasan tertentu mengapa saya menggunakan kamera tersebut, bukan pula karena idealisme.

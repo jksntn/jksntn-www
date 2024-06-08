@@ -216,3 +216,8 @@ $RECYCLE.BIN/
 
 # Temporarily ignore launch page
 _takeover.md
+
+# Obsidian
+
+.obsidian
+content/.obsidian

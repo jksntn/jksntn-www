@@ -1,12 +1,14 @@
 ---
-title: "24 Hour Project Street Tattoo"
+title: 24 Hour Project Street Tattoo
 date: 2017-08-27
 featured_image: images/01.jpg
 featured: false
 draft: false
-"blog/tags": [ Photography, 24 Hour Project, Street Photography ]
+blog/tags:
+  - 24 hour project
+  - photography
+  - street photography
 ---
-
 Sebenarnya ada banyak foto 24 Hour Project Saya yang saya fotoin pada tanggal 1 April 2017 yang lalu. Memang engga sampai 24 foto yang saya upload di media Sosial, lebih tepatnya saya hanya mengunggah sebanyak 12 foto.
 
 Dari ke dua belas foto yang saya unggah, ada satu foto yang ternyata direupload atau direpost sama akun instagram [@24hourproject Official](https://instagram.com/24hourproject). Foto ini juga menjadi salah satu favorit saya. Oleh karena itu pada kesempatan kali ini saya akan membahas foto ini.

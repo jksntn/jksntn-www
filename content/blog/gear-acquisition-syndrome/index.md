@@ -1,12 +1,12 @@
 ---
-title : Gear Acquisition Syndrome
-date : 2017-07-10
+title: Gear Acquisition Syndrome
+date: 2017-07-10
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ photography ]
+blog/tags:
+  - photography
 ---
-
 Pernah dengar istilah ini? Iya, *Gear Acquisition Syndrome* atau disingkat GAS merupakan sesuatu yang berbahaya buat para fotografer. Sebenarnya enggak hanya buat fotografer aja sih, buat orang lain juga berbahaya, tapi karena saya sedang ngobrolin GAS dan korelasinya dengan fotografi, jadi di tulisan ini akan saya bahas bahayanya GAS buat para fotografer.
 
 Kalau diterjemahkan, GAS ini adalah rasa ingin yang tidak hilang-hilang dan cenderung sering muncul untuk menambah koleksi *gear* yang ada. Kalaupun tidak menambah, kecenderungan ingin memiliki *gear* yang lainnya dengan mengurangi *gear* yang ada (dijual, supaya *gear* yang baru bisa terbeli).

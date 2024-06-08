@@ -1,12 +1,13 @@
 ---
-title : Menghapus Link Dari Google Search
-date : 2020-11-04
+title: Menghapus Link Dari Google Search
+date: 2020-11-04
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ google, google search ]
+blog/tags:
+  - google
+  - google search
 ---
-
 Beberapa waktu yang lalu (berhari-hari, mungkin berbulan-bulan, atau bertahun-tahun) entah berapa lama dari semenjak artikel ini saya publish, saya diminta menghapus foto teman saya di akun [Steller](https://steller.co/) saya, dan kebetulan saja saya lupa apa itu Steller?
 
 Jadi Steller itu adalah (setelah akhirnya saya baru ingat apa sih Steller ini) sebuah platform media sosial seperti IG (untuk saat ini ada IG Stories, untuk bercerita) yang tujuannya supaya orang membagikan cerita dengan visual gambar atau video di platform tersebut. Seperti blog, tapi media sosial. Bisa disebut micro blogging? Entahlah.

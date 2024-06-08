@@ -1,8 +1,7 @@
 ---
-title: "Tentang Saya"
-description: "Apa dan siapa saya"
+title: Tentang Saya
+description: Apa dan siapa saya
 ---
-
 ## Siapa saya?
 
 Saya adalah seorang bapak-bapak yang saat ini menetap di Bekasi. Punya ketertarikan atau passion yang cukup besar di bidang teknologi, seni dan isu sosial.

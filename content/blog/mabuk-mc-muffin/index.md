@@ -1,12 +1,12 @@
 ---
-title : Mabuk MC Muffin
-date : 2015-01-21
+title: Mabuk MC Muffin
+date: 2015-01-21
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ pengalaman pribadi ]
+blog/tags:
+  - pengalaman pribadi
 ---
-
 Pada suatu malam saya mendapatkan broadcast messenger yang berisikan promo sarapan gratis di Mc Donald, yaitu free Mc Muffin sebelum jam 10 pagi. Saya jadi teringat pada kejadian konyol ketika kuliah dulu. Saat itu saya juga mendapatkan promo yang sama, free Mc Muffin juga.
 
 Mc Muffin itu terdiri dari roti burger, daging sapi asap, keju dan telur. Saya kalau lagi laper, liat sekilas gambarnya langsung tergoda. Tapi kalau mengingat kejadian dahulu kala itu jadi rada ‘enek’ juga.  

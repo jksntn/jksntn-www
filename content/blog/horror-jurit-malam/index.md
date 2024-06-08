@@ -1,12 +1,12 @@
 ---
-title : Horror Jurit Malam
-date : 2023-03-03
+title: Horror Jurit Malam
+date: 2023-03-03
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ pengalaman pribadi ]
+blog/tags:
+  - pengalaman pribadi
 ---
-
 Semalem saya ngedongeng gitu ke anak, soalnya dia ga mau tidur dan malah pengen main game Stardew Valley sebelum tidur.
 
 Akhirnya saya cerita horror waktu ikutan pramuka ketika SMA.

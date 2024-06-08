@@ -4,9 +4,10 @@ date: 2023-06-15
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ google play books, ebook ]
+blog/tags:
+  - google play books
+  - ebook
 ---
-
 Saya memiliki beberapa akun store ebook berbeda yang kemudian saya kumpulkan ebook yang saya beli tadi untuk dibaca di satu device saja, supaya saya lebih mudah mengorganisasikannya. Semua ebook itu saya kumpulkan librarynya ke dalam satu platform yaitu google play books.
 
 Maksudnya saya kumpulkan adalah, buku-buku digital yang saya beli tersebut saya convert sedememikian rupa sehingga bisa diupload ke akun google play books saya.

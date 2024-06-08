@@ -1,12 +1,12 @@
 ---
-title: "Laki Kok Minum Kopi Pakai Gula?"
+title: Laki Kok Minum Kopi Pakai Gula?
 date: 2019-10-21
 featured_image: 
 featured: false
 draft: false
-"blog/tags": [ pengalaman pribadi ]
+blog/tags:
+  - pengalaman pribadi
 ---
-
 Kejadian ini menimpa saya mungkin pada tahun 2013-an akhir, saya lupa tepatnya.
 
 Saat itu ketika saya mau menjadi peminum kopi snob, saya mulai sering main ke coffeshop punya anak komunitas tempat saya kerja. Kebetulan lokasinya deket tempat kerja, jadi aja ga punya alasan buat ngebatalin janji.

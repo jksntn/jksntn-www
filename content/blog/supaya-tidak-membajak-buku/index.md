@@ -1,12 +1,14 @@
 ---
-title : Supaya Tidak Membajak Buku
-date : 2021-06-21
+title: Supaya Tidak Membajak Buku
+date: 2021-06-21
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ ebook, book ]
+blog/tags:
+  - ebook
+  - book
+  - ebook reader
 ---
-
 Buat sebagian orang mungkin membaca buku bisa jadi sebuah privilese, karena tidak semua orang bisa membaca buku yang dia mau (dengan membeli).
 
 Saya pernah mengalami hal itu (bahkan mungkin sampe sekarang 🤣), saat jalan-jalan ke Gramedia dan melihat banyak sekali judul buku yang mau saya baca, namun batal membeli karena harganya ga masuk budget, alhasil saya membeli buku yang bener-bener masuk budget dan itupun tidak bisa setiap minggu atau bulan saya lakukan. Beruntung (dulu) kalo ibu bapak lagi baik dan mau bayarin buku yang mau kita beli, atau kadang sodara saya suka bayarin buku kalo dia mengajak saya ke Gramedia (waktu saya kuliah dahulu).

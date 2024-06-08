@@ -1,13 +1,13 @@
 ---
-title : Tetangga Masa Gitu?
-date : 2023-03-13
+title: Tetangga Masa Gitu?
+date: 2023-03-13
 featured_image: 
 featured: false
 draft: false
-"blog/tags": [ pengalaman pribadi]
+blog/tags:
+  - pengalaman pribadi
 ---
-
-Ini sebenernya cerita cukup lama, mungkin sekitar tahun 2017.
+Sebenarnya cerita ini adalah cerita yang cukup lama, mungkin sekitar tahun 2017.
 
 Jadi ceritanya pada hari itu di rumah saya mau ada acara Arisan keluarga dari Istri. Jadilah pagi itu saya sibuk banget beres-beres, dan juga udah ada beberapa orang saudara yang bantuin.
 

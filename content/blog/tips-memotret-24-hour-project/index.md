@@ -1,12 +1,14 @@
 ---
-title: "Tips Memotret 24 Hour Project"
+title: Tips Memotret 24 Hour Project
 date: 2017-03-27
 featured_image: images/featured.jpg
 featured: false
 draft: false
-"blog/tags": [ street photography, photography, 24 hour project ]
+blog/tags:
+  - street photography
+  - photography
+  - 24 hour project
 ---
-
 Tulisan ini merupakan hasil pengalaman saya memotret di 24 Hour Project tahun sebelumnya, dan juga berdasarkan keterangan fotografer-fotografer yang pada tahun-tahun sebelumnya sudah mengikuti kegiatan [24 Hour Project](https://www.24hourproject.org/) ini.
 
 ## Minimalkan Gear

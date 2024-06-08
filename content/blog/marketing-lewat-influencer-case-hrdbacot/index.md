@@ -1,12 +1,13 @@
 ---
-title : Marketing Lewat Influencer, Case @hrdbacot
-date : 2020-10-11
+title: Marketing Lewat Influencer, Case @hrdbacot
+date: 2020-10-11
 featured_image: images/1.png
 featured: false
 draft: false
-"blog/tags": [ marketing, digital marketing ]
+blog/tags:
+  - marketing
+  - digital marketing
 ---
-
 Di tulisan digital marketing pertama saya di blog ini, saya mau membahas sesuatu yang sedang terjadi di Twitter, yaitu menggunakan akun besar seperti [@hrdbacot](https://twitter.com/hrdbacot) sebagai channel marketingnya Samsung smartphone Indonesia.
 
 Sebagai praktisi dunia digital marketing, pasti akan selalu mencari berbagai macam cara yang unik yang bisa menaikkan awareness/ketertarikan orang lain terhadap brand yang sedang dikelola.

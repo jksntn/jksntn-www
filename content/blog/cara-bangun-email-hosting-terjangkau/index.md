@@ -1,12 +1,13 @@
 ---
-title : Cara Membangun Email Hosting dengan Harga Terjangkau
-date : 2023-05-28
+title: Cara Membangun Email Hosting dengan Harga Terjangkau
+date: 2023-05-28
 featured_image: images/email2.png
 featured: false
 draft: false
-"blog/tags": [ e-mail, web development ]
+blog/tags:
+  - e-mail
+  - web development
 ---
-
 Sebelum menjelaskan ini, perlu kalian ketahui dulu kalau email hosting itu cukup mahal, bahkan yang gratisan seperti zoho dan Yandex membatasi fitur gratisnya, sehingga ada hal yang menyebalkan seperti email engga kekirim dan banyak hal lainnya.
 
 ## Perbandingan Harga

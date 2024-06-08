@@ -1,12 +1,13 @@
 ---
-title : Membeli Ebook Setengah Harga
-date : 2020-03-21
+title: Membeli Ebook Setengah Harga
+date: 2020-03-21
 featured_image: images/1.jpg
 featured: false
 draft: false
-"blog/tags": [ ebook, google play store ]
+blog/tags:
+  - ebook
+  - google play store
 ---
-
 Supaya bisa membeli ebook setengah harga ini ada beberapa hal yang harus disiapkan, di antaranya:
 
 1.  VPN (supaya bisa pindah ke negara dengan pricing yang paling murah)

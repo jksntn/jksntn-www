@@ -1,15 +1,14 @@
 ---
-title: "24 Hour Project 2017"
-description: "Project street photography 24 Hour Project yang saya kerjakan di tahun 2017."
+title: 24 Hour Project 2017
+description: Project street photography 24 Hour Project yang saya kerjakan di tahun 2017.
 weight: 100
 featured_image: images/1.jpg
-featured: true
-desckategori: "Photography"
+featured: false
+desckategori: Photography
 descclient: 
 desctahun: "2017"
-descurl: 
+descurl:
 ---
-
 Project ini adalah salah satu project fotografi yang saya kerjakan pada tahun 2017, tepatnya saat campaign 24 Hour Project. Sayangnya saat itu saya ga ngikutin motret selama 24 jam, cuman setengah hari karena anak baru setahun lahir.
 
 {{< carousel dir="/images/project/24-hour-project-2017" duration="2500" >}}

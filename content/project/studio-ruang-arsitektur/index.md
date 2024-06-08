@@ -1,15 +1,14 @@
 ---
-title: "Studio Ruang Arsitektur"
-description: "Project website company profile untuk Studio Ruang Arsitektur di Jakarta"
+title: Studio Ruang Arsitektur
+description: Project website company profile untuk Studio Ruang Arsitektur di Jakarta
 weight: 2
 featured_image: images/01.jpg
-featured: true
-desckategori: "Web Development"
-descclient: "Studio Ruang Arsitektur"
+featured: false
+desckategori: Web Development
+descclient: Studio Ruang Arsitektur
 desctahun: "2020"
-descurl: "https://studioruang.id"
+descurl: https://studioruang.id
 ---
-
 Project ini adalah project pembuatan website company profile untuk Studio Ruang Arsitektur yang berlokasi di Jakarta Barat.
 
 ## Tentang Website

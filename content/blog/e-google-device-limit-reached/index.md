@@ -1,12 +1,14 @@
 ---
-title : E_GOOGLE_DEVICE_LIMIT_REACHED
-date : 2020-03-20
+title: E_GOOGLE_DEVICE_LIMIT_REACHED
+date: 2020-03-20
 featured_image: 
 featured: false
 draft: false
-"blog/tags": [ ebook, google play books, book ]
+blog/tags:
+  - ebook
+  - google play books
+  - book
 ---
-
 Kalau kamu tak sengaja memasukkan file .acsm ke dalam Adobe Digital Editions tanpa authorizarion ke Adobe ID, dan akhirnya kamu mendapati error seperti ini:
 
 `E_GOOGLE_DEVICE_LIMIT_REACHED`

@@ -4,9 +4,11 @@ date: 2023-12-10
 featured_image: images/4.png
 featured: false
 draft: false
-"blog/tags": [ ebook, ebook reader, kindle ]
+blog/tags:
+  - ebook
+  - ebook reader
+  - kindle
 ---
-
 Semenjak dibeliin Kindle Basic Gen 10 dari Adik tersayang, saya ga pernah registrasiin kindle tersebut ke Amazon. Buku-buku di library Kindle saya itu kebanyakan saya beli dari store lain, seperti Google playbook, Kobo, dan beberapa ebook yang didapat bukan dari Store online. 
 
 Buku-buku tersebut saya transfer menggunakan [Calibre](https://calibre-ebook.com/). 
