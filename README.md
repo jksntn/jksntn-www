@@ -42,7 +42,11 @@ date: 2017-08-27
 featured_image: images/01.jpg
 featured: false
 draft: false
-"blog/tags": [ tag1, tag2, tag3 ]
+blog/tags:
+  - street photography
+  - photography
+  - iphone
+  - review
 ---
 ```
 
@@ -69,13 +73,18 @@ Example:
 Example Warning Annoucement:
 
 ```
-{{< announcement content="<p class='title'>TITLE</p>DESC <a href=\"/contact\">LINK</a>." class="danger" >}}
+{{< announcement content="
+<p class='title'>TITLE</p>
+DESC <a href=\"/contact\">LINK</a>." class="danger" 
+>}}
 ```
 
 Example normal announcement
 
 ```
-{{< announcement content="DESC.">}}
+{{< announcement content="
+DESC.
+">}}
 ```
 
 ### Button
