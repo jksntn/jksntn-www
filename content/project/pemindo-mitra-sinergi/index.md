@@ -31,6 +31,6 @@ Saya juga mengimplementasikan fitur multibahasa: Inggris dan Indonesia.
 
 ![Tampilan halaman depan](images/Pasted%20image%2020240609020535.png)
 
-![Tampilan halaman loker](images/Pasted%20image%2020240609020707.png)
-
 ![Tampilan layanan dan detail](images/Pasted%20image%2020240609021047.png)
+
+![Tampilan halaman loker](images/Pasted%20image%2020240609094629.png)
