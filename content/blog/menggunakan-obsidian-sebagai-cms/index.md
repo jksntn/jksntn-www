@@ -60,6 +60,12 @@ Atur beberapa settingan ini di pengaturan Obsidian di bagian Files and Links:
 4. **Default location for new attachment**, ubah ke setting 'in subfolder under current folder'. 
 5. **Subfolder Name**, sesuaikan dengan nama subfolder gambar, kalau saya menggunakan folder 'images', karena bawaan template. 
 
+Tambahkan juga plugin [Obsidian Paste PNG to JPG](https://github.com/musug/obsidian-paste-png-to-jpeg) biar file gambar yang dicopas ke Obsidian dikompres dan lebih kecil ukuran filenya.
+
+Jangan lupa untuk menonaktifkan pilihan Auto Move Image biar gambar tetap kesimpen ke folder Images yang sudah ditentukan sebelumnya sesuai struktur Hugo.
+
+![Plugin biar gambar kekompress](images/Pasted%20image%2020240610113931.png)
+
 ---
 
 Karena GUI VS Code memudahkan saya untuk mengecek code apa saja yang beruba, Saya masih menggunakan/membuka VS Code. Fitur source control di dalam VS Code memudahkan saya mengembalikan/ discard perubahan yang salah. 
