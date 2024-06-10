@@ -26,8 +26,7 @@
       <div class="content">{{.Content}}</div>
     </div>
     <div class="col-12 col-md-4">
-        {{ partial "press-footer" . }}
-        {{ partial "related" . }}
+        <!-- {{ partial "related" . }} -->
       <div class="program-sidenav">
         <h2>Tags</h2>
         {{ $taxo := "blog/tags" }}
@@ -37,6 +36,7 @@
         {{ end }}
         {{ end }}
       </div>
+      {{ partial "press-footer" . }}
     </div>
   </div>
 </div>

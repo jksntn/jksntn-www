@@ -1,5 +1,5 @@
 {{ if gt ((findRE `(?i)<h\d` .Content) | len) 1 }}
-  <div class="program-sidenav">
+  <div class="program-sidenav sticky">
     <h2>Table of Content</h2>
     {{ .TableOfContents }}
   </div>

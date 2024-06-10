@@ -199,3 +199,16 @@ body:after {
   }
 }
 {{ end }}
+
+// Table of Contents
+
+@media screen and (max-width: 767) {
+  .program-sidenav.sticky {
+    display: none;
+  }
+}
+
+.program-sidenav.sticky {
+  position: sticky;
+  top: 10px;
+}
