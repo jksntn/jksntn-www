@@ -201,7 +201,7 @@ List game retro yang sering saya mainin:
 
 ---
 
-Sebenarnya masih banyak game-game baru yang mau saya rekomendasikan buat bapak-bapak yang mulai mencari kenikmatan lagi bermain game. 
+Sebenarnya masih banyak game-game baru yang mau saya rekomendasikan buat bapak-bapak yang mulai mencari nikmatnya bermain game lagi. 
 
 Tapi nanti mungkin saya bahas sendiri-sendiri aja biar engga kepanjangan. 
 
