@@ -1,4 +1,4 @@
-{{ $related := (where (.Site.RegularPages.Related .) "Type" "blog") | first 3 }}
+{{ $related := (where (.Site.RegularPages.Related .) "Type" "blog") | first 5 }}
 {{ with $related }}
 <div id="TableOfContents" class="program-sidenav">
     <h2>Related Posts</h2>
