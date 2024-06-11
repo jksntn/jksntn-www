@@ -41,10 +41,10 @@ Folder content ini biasanya cuman ada  blog, halaman about, dan halaman-halaman 
 
 Supaya settingan obsidian ini engga muncul di instalan Hugo, cukup abaikan folder setting Obsidian `.obsidian` dengan menambahkan beberapa baris di file `.gitignore`.
 
-```
+{{< highlight Shell "linenos=table" >}}
 .obsidian
 content/.obsidian
-```
+{{< /highlight >}}
 
 Tapi nantinya saya harus setup ulang Obsidiannya setiap pindah PC atau Laptop. 
 ### Setting Default Penyimpanan Gambar.
