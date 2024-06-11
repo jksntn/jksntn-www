@@ -3,8 +3,9 @@
 $dark1: #242322;
 $dark2: #131212;
 $dark-button: #f3d18c;
+$dark-heading: #f3d18c;
 $dark-font: #f0f0f0;
-$dark-notif: #3d7e81;
+$dark-notif: #428d91;
 $dark-warn: #b93b37;
 
 body, .strip {
@@ -66,4 +67,8 @@ span.tag.badge.badge-pill.badge-primary:hover {
 
 .hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
     background-color: $dark-font !important;
+}
+
+.content > h2, .content > h3 {
+    color: $dark-heading !important;
 }
