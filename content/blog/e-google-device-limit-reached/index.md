@@ -1,5 +1,5 @@
 ---
-title: E_GOOGLE_DEVICE_LIMIT_REACHED
+title: E GOOGLE DEVICE LIMIT REACHED
 date: 2020-03-20
 featured_image: 
 featured: false
