@@ -104,12 +104,3 @@ Example of use:
 DESC
 {{< /expand >}}
 ```
-
-### Highlight
-
-```
-{{< highlight Shell "linenos=table" >}}
-.obsidian
-content/.obsidian
-{{< /highlight >}}
-```
