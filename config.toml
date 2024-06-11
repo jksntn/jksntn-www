@@ -155,11 +155,11 @@ home = ["HTML","RSS"]
 
 [related]
   includeNewer = true
-  threshold = 0
+  threshold = 80
   toLower = false
 
   [[related.indices]]
-  name = "tags"
+  name = "blog/tags"
   weight = 80
 
   [[related.indices]]
