@@ -118,23 +118,23 @@
     }
 
     thead {
-      background-color: rgba(38, 109, 211, 0.1);
+      background-color: $dark-button;
+      color: $dark2;
 
       tr {
-        border-radius: 10px;
+        // border-radius: 10px;
         th {
           vertical-align: middle;
-          border-bottom: 1px solid $white-offset;
           text-align: left;
           font-weight: bold;
           font-family: $font-family-heading;
 
           &:first-child {
-            border-radius: 5px 0 0 5px;
+            // border-radius: 5px 0 0 5px;
           }
 
           &:last-child {
-            border-radius: 0 5px 5px 0;
+            // border-radius: 0 5px 5px 0;
           }
         }
       }
