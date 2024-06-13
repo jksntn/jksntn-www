@@ -178,7 +178,7 @@ input[type=checkbox] {
 }
 
 // Display breakpoints for DEV
-{{ if hugo.IsServer }}
+{{ if .Site.IsServer }}
 body:after {
   color: #000000;
   font-size: 12px;

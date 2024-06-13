@@ -1,4 +1,4 @@
-{{- if hugo.IsServer -}}
+{{- if .Site.IsServer -}}
 <!-- Dont add Google analytics to localhost -->
 {{ else }}
 {{- if .Site.Params.tracking.id -}}
