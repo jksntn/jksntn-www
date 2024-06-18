@@ -234,3 +234,11 @@ body {
       opacity: 1;
   }
 }
+
+// Font Gradient
+
+h1 {
+  background: linear-gradient(to right, #fff1b5 0%, #ff7d03 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
