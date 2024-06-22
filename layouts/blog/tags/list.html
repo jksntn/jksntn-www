@@ -8,15 +8,27 @@
         <h1 class="title">Tag: {{.Title}}</h1>
       </div>
     </div>
-  </div>
-</div>
-<div class="container pb-md-12 pb-6  mt-5">
-  <div class="row justify-content-start">
+    
     <div class="col-12 col-md-8">
-      {{ range .Pages.ByWeight }}
-      <div class="mb-4">{{ .Render "summary" }}</div>
-      {{ end }}
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+          {{ range .Pages.ByWeight }}
+          <div class="mb-4">{{ .Render "summary" }}</div>
+          {{ end }}
+        </div>
+      </div>
     </div>
+    
+    <div class="col-12 col-md-4">
+      <div class="aside tags">
+        <h2>Tags</h3>
+          {{range ($.Site.GetPage "taxonomyTerm" "blog/tags").Pages }}
+          <a href="{{ .RelPermalink }}"><span class="tag badge badge-pill badge-primary">{{.Title}}</span></a>
+          {{end}}
+      </div>
+    </div>
+
   </div>
 </div>
+
 {{ end }}
