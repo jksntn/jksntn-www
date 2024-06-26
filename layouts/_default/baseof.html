@@ -45,9 +45,10 @@
   {{ partial "footer.html" . }}
   {{ $scripts := resources.Get "js/scripts.js" }}
   {{ $instantclick := resources.Get "js/libs/instantpage.js" }}
+  {{ $prism := resources.Get "js/prism.js" }}
   {{ block "footer_js" . }}
   {{ end }}
-  {{ $jsbundle := slice $instantclick $scripts | resources.Concat "js/bundle.js" }}
+  {{ $jsbundle := slice $instantclick $scripts $prism | resources.Concat "js/bundle.js" }}
   <script type="text/javascript" src="{{ ($jsbundle | minify | fingerprint).RelPermalink }} " data-no-instant defer></script>
 </body>
 
