@@ -246,7 +246,7 @@ h1 {
 
 // Code
 
-pre {
-  padding: 20px;
-  border-radius: 5px;
+.highlight > pre {
+  padding: 20px !important;
+  border-radius: 5px !important;
 }
