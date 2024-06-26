@@ -41,7 +41,7 @@ Folder content ini biasanya cuman ada  blog, halaman about, dan halaman-halaman 
 
 Supaya settingan obsidian ini engga muncul di instalan Hugo, cukup abaikan folder setting Obsidian `.obsidian` dengan menambahkan beberapa baris di file `.gitignore`.
 
-```shell
+```html
 .obsidian
 content/.obsidian
 ```

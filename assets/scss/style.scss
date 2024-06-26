@@ -30,6 +30,7 @@ $sub-footer-text-color: $white;
 
 @import 'libraries/fonts';
 
+
 // Dark Mode
 
 @import 'darkmode';
@@ -241,4 +242,11 @@ h1 {
   background: linear-gradient(to right, #fff1b5 0%, #ff7d03 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+// Code
+
+pre {
+  padding: 20px;
+  border-radius: 5px;
 }
