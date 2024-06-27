@@ -2,11 +2,11 @@
 
 $dark1: #1C1C1C;
 $dark2: #222222;
-$dark-button: #a1a1a1;
+$dark-button: #dddddd;
 $dark-heading: #dfdfdf;
 $dark-font: #ffffff;
-$dark-notif: #428d91;
-$dark-warn: #b93b37;
+$dark-notif: #48979b;
+$dark-warn: #c24e4a;
 $dark-orange: #FECA78;
 
 body, .strip {
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: lighten($dark-button, 10%) !important; 
+    color: lighten($dark-button, 20%) !important; 
 }
 
 .button {
@@ -72,4 +72,12 @@ span.tag.badge.badge-pill.badge-primary:hover {
 
 .content > h2, .content > h3 {
     color: $dark-heading !important;
+}
+
+p > a, .content li > a {
+    color: $dark-orange !important;
+}
+
+p > a:hover, .content li > a:hover {
+    color: darken($dark-orange, 10px)!important;
 }

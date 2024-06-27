@@ -144,7 +144,7 @@ Game Starcraft II adalah game RTS yang Legend dari Blizzard, perusahaan ini juga
 
 Walaupun Starcraft II rilis sudah lama banget (sekitar tahun 2010), game ini masih memiliki fan base yang cukup besar dan masih ada [kompetisinya](https://pro.eslgaming.com/tour/sc2/). 
 
-Bahkan kalau mau main onlinenya, masih banyak server yang aktif bermain game ini, dan banyak banget custom gamenya sehingga bikin betar pemain Starcraft II
+Bahkan kalau mau main onlinenya, masih banyak server yang aktif bermain game ini, dan banyak banget custom gamenya sehingga bikin betah bermain Starcraft II
 
 Starcraft II ini cuman bisa diakses menggunakan aplikasi [Blizzard Battle.net](https://us.shop.battle.net/en-us).
 
