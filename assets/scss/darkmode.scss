@@ -81,3 +81,8 @@ p > a, .content li > a {
 p > a:hover, .content li > a:hover {
     color: darken($dark-orange, 10px)!important;
 }
+
+::selection {
+    color: $dark1 !important;
+    background: $dark-orange !important;
+  }
