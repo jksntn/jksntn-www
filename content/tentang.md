@@ -42,9 +42,12 @@ Salam 🤘
 - Excalidraw
 - Canva
 
-## Socials
-Anda bisa bertanya sesuatu mengenai tulisan saya atau misalnya ada project yang bisa dikolaborasiin ke saya, mungkin. Hubungi saya di:
+## Reach me
+Anda bisa bertanya sesuatu mengenai tulisan saya atau misalnya ada project yang bisa dikolaborasiin ke saya, mungkin 😅. 
 
+Hubungi saya di:
+
+- [Email jksntn@pm.me](mailto:jksntn@pm.me)
 - [Twitter @jksntn](https://twitter.com/jksntn/)
 - [Facebook @jksntn](https://facebook.com/jksntn/)
-- [Threads @jksntn](https://threads.net/jksntn/)
+- [Threads @thejksntn](https://threads.net/thejksntn/) <-- Ganti akun soalnya yang sebelumnya kebanned dan belum bisa diaktifin lagi 🫣.
