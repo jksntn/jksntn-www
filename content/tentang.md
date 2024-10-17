@@ -47,7 +47,5 @@ Anda bisa bertanya sesuatu mengenai tulisan saya atau misalnya ada project yang 
 
 Hubungi saya di:
 
-- Email ke [jaka@jksntn.my.id](mailto:jaka@jksntn.my.id)
 - [Twitter @jksntn](https://twitter.com/jksntn/)
-- [Facebook @jksntn](https://facebook.com/jksntn/)
 - [Threads @thejksntn](https://threads.net/thejksntn/) <-- Ganti akun soalnya yang sebelumnya kebanned dan belum bisa diaktifin lagi 🫣.
